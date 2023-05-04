@@ -4,6 +4,8 @@
  */
 package javacurrencycalculator;
 
+
+import java.util.Scanner;
 /**
  *
  * @author Jehan
