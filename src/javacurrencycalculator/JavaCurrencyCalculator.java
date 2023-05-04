@@ -27,13 +27,13 @@ public class JavaCurrencyCalculator {
         
         int choice = sc.nextInt();
         
-        System.out.println("Enter Ammount of Currency to convert : ");
-        double amout = sc.nextDouble();
+        System.out.println("Enter Amount of Currency to convert : ");
+        double amount = sc.nextDouble();
         double currentAmount = 0.0;
         
         switch(choice){
             case 1:
-                
+                currentAmount = amount/0.65;
         }
         
     }
