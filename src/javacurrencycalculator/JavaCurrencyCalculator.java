@@ -31,6 +31,11 @@ public class JavaCurrencyCalculator {
         double amout = sc.nextDouble();
         double currentAmount = 0.0;
         
+        switch(choice){
+            case 1:
+                
+        }
+        
     }
     
 }
