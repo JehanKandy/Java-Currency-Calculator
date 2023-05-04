@@ -41,8 +41,8 @@ public class JavaCurrencyCalculator {
                 System.out.println("%2f USD = %2f Euro \n"+ amount + currentAmount);
                 break;
             case 3:
-                currentAmount = amount*0.92;
-                System.out.println("%2f USD = %2f Euro \n"+ amount + currentAmount);
+                currentAmount = amount*1.41;
+                System.out.println("%2f Euro = %2f USD \n"+ amount + currentAmount);
                 break;
         }
         
