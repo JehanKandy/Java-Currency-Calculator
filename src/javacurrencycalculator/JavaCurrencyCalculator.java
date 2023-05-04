@@ -19,6 +19,8 @@ public class JavaCurrencyCalculator {
         // TODO code application logic here
         
         Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Choose the currency to Calculate : ");
     }
     
 }
