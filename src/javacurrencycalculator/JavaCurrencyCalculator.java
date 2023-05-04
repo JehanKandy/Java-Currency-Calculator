@@ -27,6 +27,9 @@ public class JavaCurrencyCalculator {
         
         int choice = sc.nextInt();
         
+        System.out.println("Enter Ammount of Currency to convert : ");
+        double amout = sc.nextDouble();
+        
     }
     
 }
