@@ -21,6 +21,12 @@ public class JavaCurrencyCalculator {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Choose the currency to Calculate : ");
+        System.out.println("1. Singapore Dollars");
+        System.out.println("2. US Dollars");
+        System.out.println("Erous");
+        
+        int choice = sc.nextInt();
+        
     }
     
 }
