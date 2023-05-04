@@ -37,8 +37,12 @@ public class JavaCurrencyCalculator {
                 System.out.println("%2f SGD = %2f Euro \n"+ amount + currentAmount);
                 break;
             case 2:
-                currentAmount = amount/0.65;
-                System.out.println("%2f SGD = %2f Euro \n"+ amount + currentAmount);
+                currentAmount = amount*0.92;
+                System.out.println("%2f USD = %2f Euro \n"+ amount + currentAmount);
+                break;
+            case 3:
+                currentAmount = amount*0.92;
+                System.out.println("%2f USD = %2f Euro \n"+ amount + currentAmount);
                 break;
         }
         
