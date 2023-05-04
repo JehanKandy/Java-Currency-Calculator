@@ -44,6 +44,8 @@ public class JavaCurrencyCalculator {
                 currentAmount = amount*1.41;
                 System.out.println("%2f Euro = %2f USD \n"+ amount + currentAmount);
                 break;
+            default:
+                System.out.println("Invalied Choice");
         }
         
     }
