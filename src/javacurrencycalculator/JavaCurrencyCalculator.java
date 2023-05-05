@@ -32,5 +32,7 @@ public class JavaCurrencyCalculator {
         int choise = sc.nextInt();
         
         System.out.print("Enter Amount to Converter : ");
+        double amount = sc.nextDouble();
+        double CunvertedAmount = 0.0;
     }
 }
