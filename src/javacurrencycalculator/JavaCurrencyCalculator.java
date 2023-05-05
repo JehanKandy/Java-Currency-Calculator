@@ -19,7 +19,7 @@ public class JavaCurrencyCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
-        double lkr,usd,sgd,;
+        double lkr,usd,sgd,inr,dubai,eruo,pound;
         
         System.out.println("Currency Converter"); 
 
