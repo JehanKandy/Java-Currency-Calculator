@@ -21,5 +21,8 @@ public class JavaCurrencyCalculator {
         
         System.out.println("Currency Converter");        
         System.out.println("Choose the optionss");
+        
+        
+        
     }
 }
