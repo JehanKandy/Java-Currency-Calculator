@@ -19,6 +19,8 @@ public class JavaCurrencyCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
+        double lkr,usd,sgd,;
+        
         System.out.println("Currency Converter"); 
 
         System.out.println("1. Sri Lankan Rupee");
@@ -27,6 +29,7 @@ public class JavaCurrencyCalculator {
         System.out.println("4. Indian Rupee");
         System.out.println("5. Dubai Dirham");
         System.out.println("6. Euro");
+        System.out.println("7. Pound");
         
         System.out.print("Choose the option : ");
         
@@ -34,8 +37,7 @@ public class JavaCurrencyCalculator {
         
         System.out.print("Enter Amount to Converter : ");
         double amount = sc.nextDouble();
-        double CunvertedAmount = 0.0;
-        
+       
         switch(choise){
             case 1:
                 
