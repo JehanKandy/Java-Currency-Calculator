@@ -47,6 +47,10 @@ public class JavaCurrencyCalculator {
                 
                 sgd = amount * 241.75;
                 System.out.println(amount + " in Sri Lankan Rupee : " + f.format(sgd) + " in Singapore Dollar");
+                
+                inr = amount * 3.92;
+                System.out.println(amount + " in Sri Lankan Rupee : " + f.format(sgd) + " in Indian Rupee");
+                
                 break;
         }
     }
