@@ -6,6 +6,7 @@ package javacurrencycalculator;
 
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 /**
  *
  * @author Jehan
@@ -18,6 +19,7 @@ public class JavaCurrencyCalculator {
     
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        DecimalFormat f = new DecimalFormat("##.##");
         
         double lkr,usd,sgd,inr,dubai,eruo,pound;
         
@@ -40,7 +42,8 @@ public class JavaCurrencyCalculator {
        
         switch(choise){
             case 1: //LKR Converter
-                
+                usd = amount * 320.54;
+                                
         }
     }
 }
