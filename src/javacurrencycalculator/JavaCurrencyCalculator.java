@@ -39,7 +39,7 @@ public class JavaCurrencyCalculator {
         double amount = sc.nextDouble();
        
         switch(choise){
-            case 1:
+            case 1: //LKR Converter
                 
         }
     }
