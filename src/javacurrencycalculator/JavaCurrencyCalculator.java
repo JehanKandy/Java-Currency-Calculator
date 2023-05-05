@@ -25,7 +25,8 @@ public class JavaCurrencyCalculator {
         System.out.println("2. US Dollar");
         System.out.println("3. Singapore Dollar");
         System.out.println("4. Indian Rupee");
-        System.out.println("5. Dubai Dirham");  
+        System.out.println("5. Dubai Dirham");
+        System.out.println("6. Euro");
         
         System.out.print("Choose the option : ");
         
@@ -36,7 +37,8 @@ public class JavaCurrencyCalculator {
         double CunvertedAmount = 0.0;
         
         switch(choise){
-            
+            case 1:
+                
         }
     }
 }
