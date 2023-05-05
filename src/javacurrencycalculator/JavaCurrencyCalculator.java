@@ -23,7 +23,7 @@ public class JavaCurrencyCalculator {
         System.out.println("Choose the optionss");
         
         System.out.println("1. Sri Lankan rupee");
-        System.out.println("2. US Dollars");
+        System.out.println("2. US Dollar");
         System.out.println("3. Singapore Dollar");
         
     }
