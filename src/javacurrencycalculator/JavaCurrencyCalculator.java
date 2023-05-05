@@ -22,7 +22,7 @@ public class JavaCurrencyCalculator {
         System.out.println("Currency Converter");        
         System.out.println("Choose the optionss");
         
-        System.out.println("1. Ruppies");
+        System.out.println("1. Sri Lankan rupee");
         
     }
 }
