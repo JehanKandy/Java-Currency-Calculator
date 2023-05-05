@@ -26,6 +26,8 @@ public class JavaCurrencyCalculator {
         System.out.println("2. US Dollar");
         System.out.println("3. Singapore Dollar");
         System.out.println("4. Indian Rupee");
-        System.out.println("5. Dubai Dirham");        
+        System.out.println("5. Dubai Dirham");  
+        
+        int choise = sc.nextInt();
     }
 }
