@@ -44,6 +44,9 @@ public class JavaCurrencyCalculator {
             case 1: //LKR Converter
                 usd = amount * 320.54;
                 System.out.println(amount + " in Sri Lankan Rupee : " + f.format(usd) + " Dollars."); 
+                
+                sgd = amount * 241.75;
+                System.out.println(amount + " in Sri Lankan Rupee : " + f.format(sgd) + " in Singapore Dollar");
                 break;
         }
     }
