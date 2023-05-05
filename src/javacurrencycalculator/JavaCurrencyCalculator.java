@@ -34,5 +34,9 @@ public class JavaCurrencyCalculator {
         System.out.print("Enter Amount to Converter : ");
         double amount = sc.nextDouble();
         double CunvertedAmount = 0.0;
+        
+        switch(choise){
+            
+        }
     }
 }
