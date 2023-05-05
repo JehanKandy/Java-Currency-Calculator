@@ -19,14 +19,15 @@ public class JavaCurrencyCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Currency Converter");        
-        System.out.println("Choose the optionss");
-        
+        System.out.println("Currency Converter"); 
+
         System.out.println("1. Sri Lankan Rupee");
         System.out.println("2. US Dollar");
         System.out.println("3. Singapore Dollar");
         System.out.println("4. Indian Rupee");
         System.out.println("5. Dubai Dirham");  
+        
+        System.out.print("Choose the optionss");
         
         int choise = sc.nextInt();
     }
