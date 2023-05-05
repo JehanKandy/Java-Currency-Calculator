@@ -30,5 +30,7 @@ public class JavaCurrencyCalculator {
         System.out.print("Choose the option : ");
         
         int choise = sc.nextInt();
+        
+        System.out.print("Enter Amount to Converter : ");
     }
 }
