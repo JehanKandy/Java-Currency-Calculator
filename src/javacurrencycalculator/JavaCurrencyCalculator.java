@@ -52,13 +52,13 @@ public class JavaCurrencyCalculator {
                 System.out.println(amount + " Sri Lankan Rupee : " + f.format(inr) + " in Indian Rupee");
                 
                 dubai = amount / 87.14;
-                System.out.println(amount + " Sri Lankan Rupee : " + f.format(dubai) + "in Dubai UAE Dinar");
+                System.out.println(amount + " Sri Lankan Rupee : " + f.format(dubai) + " in Dubai UAE Dinar");
                 
                 eruo = amount / 358.76;
-                System.out.println(amount + " Sri Lankan Rupee : " + f.format(eruo )+ "in Eruo");
+                System.out.println(amount + " Sri Lankan Rupee : " + f.format(eruo)+ " in Eruo");
                 
                 pound = amount / 404.47;
-                System.out.println(amount + " Sri Lankan Rupee : " + f.format(pound) + "in Pound");
+                System.out.println(amount + " Sri Lankan Rupee : " + f.format(pound) + " in Pound");
                 
                 break;
         }
