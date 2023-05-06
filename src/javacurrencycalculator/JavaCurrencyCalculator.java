@@ -75,6 +75,9 @@ public class JavaCurrencyCalculator {
                 System.out.println(amount + " USD : " + f.format(dubai) + " in UAE Dinar");
                 
                 eruo = amount * 0.89;
+                System.out.println(amount + " USD : " + f.format(eruo) + " in Eruo");
+                
+                
                 
                 break;
                 
