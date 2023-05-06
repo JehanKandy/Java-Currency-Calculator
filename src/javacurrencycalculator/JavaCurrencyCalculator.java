@@ -57,7 +57,7 @@ public class JavaCurrencyCalculator {
                 eruo = amount / 358.76;
                 System.out.println(amount + " Sri Lankan Rupee : " + f.format(eruo )+ "in Eruo");
                 
-                pound = amount / 
+                pound = amount / 404.47;
                 
                 break;
         }
