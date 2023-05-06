@@ -66,7 +66,7 @@ public class JavaCurrencyCalculator {
                 System.out.println(amount + " USD : " + f.format(lkr) + " in Sri Lankan Rupee");
                 
                 sgd = amount * 1.33;
-                System.out.println(amount + " USD : " + f.format(sgd) + "in Singapore Dollar");
+                System.out.println(amount + " USD : " + f.format(sgd) + " in Singapore Dollar");
                 
                 break;
                 
