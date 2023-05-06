@@ -51,7 +51,7 @@ public class JavaCurrencyCalculator {
                 System.out.println(amount + " Sri Lankan Rupee : " + f.format(inr) + " in Indian Rupee");
                 
                 dubai = amount / 87.14;
-                System.out.println(amount + " Sri Lankan Rupee : " + f.format(dubai) + " in Dubai UAE Dinar");
+                System.out.println(amount + " Sri Lankan Rupee : " + f.format(dubai) + " in UAE Dinar");
                 
                 eruo = amount / 358.76;
                 System.out.println(amount + " Sri Lankan Rupee : " + f.format(eruo)+ " in Eruo");
@@ -71,6 +71,8 @@ public class JavaCurrencyCalculator {
                 inr = amount * 81.73;
                 System.out.println(amount + " USD : " + f.format(inr) + " in Indian Rupee");
                 
+                dubai = amount * 3.67;
+                System.out.println(amount + " USD : " + f.format(dubai) + " in UAE Dinar");
                 
                 break;
                 
