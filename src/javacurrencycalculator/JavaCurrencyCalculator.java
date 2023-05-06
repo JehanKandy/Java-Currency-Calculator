@@ -19,7 +19,7 @@ public class JavaCurrencyCalculator {
     
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        DecimalFormat f = new DecimalFormat("##.##");
+        DecimalFormat f = new DecimalFormat("##.###");
         
         double lkr,usd,sgd,inr,dubai,eruo,pound;
         
