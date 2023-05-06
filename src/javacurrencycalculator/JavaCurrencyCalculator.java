@@ -21,8 +21,7 @@ public class JavaCurrencyCalculator {
         Scanner sc = new Scanner(System.in);
         DecimalFormat f = new DecimalFormat("##.###");
         
-        double lkr,usd,sgd,inr,dubai,eruo,pound;
-        
+        double lkr,usd,sgd,inr,dubai,eruo,pound;        
         System.out.println("Currency Converter"); 
 
         System.out.println("1. Sri Lankan Rupee");
