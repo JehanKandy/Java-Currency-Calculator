@@ -63,6 +63,7 @@ public class JavaCurrencyCalculator {
                 break;
              
             case 2: //USD Converter
+                lkr = amount * 320.02;
                 
         }
     }
