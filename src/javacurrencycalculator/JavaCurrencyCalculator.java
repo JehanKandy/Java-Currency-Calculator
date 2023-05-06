@@ -77,6 +77,7 @@ public class JavaCurrencyCalculator {
                 eruo = amount * 0.89;
                 System.out.println(amount + " USD : " + f.format(eruo) + " in Eruo");
                 
+                pound = amount * 0.79;
                 
                 
                 break;
