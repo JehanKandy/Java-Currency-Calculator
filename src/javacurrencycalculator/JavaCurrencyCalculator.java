@@ -68,6 +68,8 @@ public class JavaCurrencyCalculator {
                 sgd = amount * 1.33;
                 System.out.println(amount + " USD : " + f.format(sgd) + " in Singapore Dollar");
                 
+                inr = amount * 81.73;
+                
                 break;
                 
         }
