@@ -51,6 +51,9 @@ public class JavaCurrencyCalculator {
                 inr = amount / 3.92;
                 System.out.println(amount + " Sri Lankan Rupee : " + f.format(inr) + " in Indian Rupee");
                 
+                dubai = amount / 87.14;
+                System.out.println(amount + " Sri Lankan Rupee : " + f.format(dubai) + "in Dubai UAE Dinar");
+                
                 break;
         }
     }
