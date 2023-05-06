@@ -55,6 +55,8 @@ public class JavaCurrencyCalculator {
                 System.out.println(amount + " Sri Lankan Rupee : " + f.format(dubai) + "in Dubai UAE Dinar");
                 
                 eruo = amount / 358.76;
+                System.out.println(amount + " Sri Lankan Rupee : " + f.format(eruo )+ "in Eruo");
+                
                 break;
         }
     }
