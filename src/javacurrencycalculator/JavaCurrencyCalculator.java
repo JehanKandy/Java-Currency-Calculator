@@ -64,6 +64,9 @@ public class JavaCurrencyCalculator {
              
             case 2: //USD Converter
                 lkr = amount * 320.02;
+                System.out.println(amount + " USD : " + f.format(lkr) + " in Sri Lankan Rupee");
+                
+                break;
                 
         }
     }
